@@ -5,7 +5,7 @@
 
     font-family: courier;
 
-    color: #f5f5f5;
+    color: #d9dcd6;
 }
 
 body {
@@ -39,19 +39,28 @@ header {
 header a {
     text-decoration: none;
 
-    color:#f5f5f5;
+    color:#d9dcd6;
 }
 
 header img {
     border-radius: 50%;
 
-    height: 100px;
+    height: 125px;
 
-    width: 100px;
+    width: 125px;
 
-    padding: 0 10px;
+    margin-left: 100px;
 
-    align-self: center;
+    /* align-self: center; */
+
+    display: flex;
+
+    justify-content: center;
+}
+
+/* Start navigation styling */
+header nav {
+    margin-top: 8px;
 }
 
 header nav ul {
@@ -71,7 +80,7 @@ header nav ul {
 header nav ul li a {
     padding: 25px;
 }
-/* Header styling over */
+/* Header and navigation styling over */
 
 /* Hero style start */
 .hero {
@@ -81,23 +90,170 @@ header nav ul li a {
 
     background-position: center;
 
-    height: 200px;
+    height: 150px;
 
     background-attachment: fixed;
 
     background-position: 80%;
+
+    margin-bottom: 25px;
 }
 /* Hero styling over */
 
+/* overall section styling */
+.section-title {
+    font-size: 28px;
+
+    box-sizing: content-box;
+
+    border-right: 5px solid #790e0e;
+
+    padding: 5px 25px;
+
+    width: 200px;
+
+}
+
 .section-title h2 {
-    font-size: 36px;
+    color: #d9dcd6;
+
+    padding: 20px;
+
+    width: 200px;
 }
 
 
 /* About me section */
+.about {
+    display: flex;
+
+    position: relative;
+
+    margin-bottom: 25px;
+    
+}
+
+.about p {
+    margin-left: 100px;
+
+    padding: 20px;
+
+    max-width: 1200px;
+
+    line-height: 25px;
+}
 
 
 /* My works section */
+.works {
+    display: flex;
 
+    flex-wrap: wrap;
 
-/* Contact me section */
+    margin-bottom: 25px;
+
+    width: fit-content;
+}
+
+.works article {
+    padding: 20px;
+
+    margin-left: 100px;
+}
+
+/* Run Buddy specifics */
+.run-buddy {
+    display: flex;
+
+    border: 5px solid #790e0e;
+
+    border-radius: 5px;
+
+    flex: 1 100%;
+
+    position: relative;
+
+    margin-bottom: 25px;
+
+    margin-left: 25px;
+}
+
+.run-buddy a {
+    max-height: 527px;
+}
+
+.run-buddy img {
+    max-width: 1200px;
+    max-height: 527px;
+}
+
+.run-buddy .overlap-text-box {  
+    
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    padding: 12px;
+
+    background-color: #790e0e;
+}
+/* Run Buddy specifics over */
+
+/* Future works specifics */
+.future-works {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-left: 25px;
+}
+
+.future-works .coming {
+    display: flex;
+    flex: wrap;
+    width: fit-content;
+    border: 5px solid #790e0e;
+    border-radius: 5px;
+    position: relative;
+}
+
+.future-works .coming img {
+    width: 200px;
+    height: 300px;
+}
+
+.future-works .coming .overlap-text-box {
+
+    display: inline-block;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    background-color: #790e0e;
+}
+/* My works section stylings over */
+
+/* Reach out section */
+.contact {
+    display: flex;
+
+    position: relative;
+
+    margin-bottom: 25px;
+}
+
+.contact address {
+    padding: 20px;
+
+    margin-left: 100px;
+
+    line-height: 55px;
+
+    font-size: 18px;
+
+}
