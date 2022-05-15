@@ -257,3 +257,99 @@ header nav ul li a {
     font-size: 18px;
 
 }
+
+/* MEDIA QUERIES FOR DIFFERENT SCREEN SIZES */
+
+/* Small desktop screens/laptops */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+
+        justify-content: center;
+
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+
+        text-align: center;
+
+
+    }
+
+    header img {
+
+        position: absolute;
+
+        left: 25px;
+
+        top: 15px;
+    }
+
+    header nav ul {
+
+        margin-top: 20px;
+
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .hero {
+        height: 100px;
+    }
+
+    .section-title {
+
+        width: 20%;
+
+        border-bottom: 5px solid #790e0e;
+
+        border-right: none;
+
+        font-size: 24px;
+
+        padding-left: 0;
+    }
+
+    .about {
+        display: block;
+
+        margin-bottom: 0;
+    }
+
+    .about p {
+        margin-left: 25px;
+        
+    }
+
+    .works {
+        margin-bottom: 0;
+    }
+
+    .works article {
+        margin-left: 0;
+        
+    }
+
+    .run-buddy img {
+        max-width: 850px;
+
+        max-height: 407px;
+    }
+
+    .run-buddy a {
+        max-width: 850px;
+
+        max-height: 407px;
+    }
+
+    .contact {
+        display: block;
+
+        flex: 1 100%;
+
+        align-content: center;
+    }
+}
