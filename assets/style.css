@@ -260,7 +260,7 @@ header nav ul li a {
 
 /* MEDIA QUERIES FOR DIFFERENT SCREEN SIZES */
 
-/* Small desktop screens/laptops */
+/* Small desktop screens/laptops (max 980px) */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -351,5 +351,72 @@ header nav ul li a {
         flex: 1 100%;
 
         align-content: center;
+    }
+}
+
+/* MEDIA QUERIES FOR TABLETS OR SMALLER (max 768px) */
+@media screen and (max-width: 980px) {
+    header {
+        background-size: cover;
+
+        height: 150px;
+    }
+
+    header h1 {
+        height: fit-content;
+    }
+
+    header img {
+        margin: 0;
+    }
+
+    header nav {
+        margin: 0;
+
+        height: fit-content;
+    }
+
+    header nav ul li a {
+        padding-top: 0;
+    }
+
+    .hero {
+        margin: 0;
+
+        height: 0;
+
+        width: 0;
+    }
+
+    .section-title {
+        margin-left: auto;
+        
+        margin-right: auto;
+        
+        padding: 20px 0 0;
+        
+        text-align: center;
+        
+        width: fit-content;
+    }
+
+    .works article {
+        padding-left: 0;
+    }
+
+    .run-buddy a {
+        max-height: 345px;
+    }
+
+    .run-buddy img {
+        max-width: 720px;
+
+        max-height: 345px;
+    }
+
+    .contact address {
+        margin: auto;
+        
+        text-align: center;
     }
 }
