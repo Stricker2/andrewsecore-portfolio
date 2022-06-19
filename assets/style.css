@@ -162,7 +162,7 @@ header nav ul li a {
 }
 
 /* Run Buddy specifics */
-.run-buddy {
+.finished-project {
     display: flex;
 
     border: 5px solid #790e0e;
@@ -171,6 +171,8 @@ header nav ul li a {
 
     flex: 1 100%;
 
+    width: fit-content;
+
     position: relative;
 
     margin-bottom: 25px;
@@ -178,16 +180,16 @@ header nav ul li a {
     margin-left: 25px;
 }
 
-.run-buddy a {
+.finished-project a {
     max-height: 527px;
 }
 
-.run-buddy img {
+.finished-project img {
     max-width: 1200px;
     max-height: 527px;
 }
 
-.run-buddy .overlap-text-box {  
+.finished-project .overlap-text-box {  
     
     position: absolute;
 
@@ -335,13 +337,13 @@ header nav ul li a {
         
     }
 
-    .run-buddy img {
+    .finished-project img {
         max-width: 850px;
 
         max-height: 407px;
     }
 
-    .run-buddy a {
+    .finished-project a {
         max-width: 850px;
 
         max-height: 407px;
@@ -406,11 +408,11 @@ header nav ul li a {
         padding-left: 0;
     }
 
-    .run-buddy a {
+    .finished-project a {
         max-height: 345px;
     }
 
-    .run-buddy img {
+    .finished-project img {
         max-width: 720px;
 
         max-height: 345px;
@@ -458,15 +460,15 @@ header nav ul li a {
        align-content: center;
     }
 
-    .run-buddy {
+    .finished-project {
         max-width: 500px;    
     }
 
-    .run-buddy a {
+    .finished-project a {
         height: 240px;
     }
 
-    .run-buddy img {
+    .finished-project img {
         max-width: 475px;
         
         height: 240px;
