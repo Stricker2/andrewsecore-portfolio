@@ -29,7 +29,7 @@ Link: https://stricker2.github.io/andrewsecore-portfolio/
 * 768px
 <img src="assets\images\portfolio-webpage-768px.png">
 
-* 525px
+* 525px</br>
 <img src="assets\images\portfolio-webpage-525px.png">
 
 ## Contributors
